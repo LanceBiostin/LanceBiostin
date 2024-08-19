@@ -1,38 +1,35 @@
+
 <!DOCTYPE html>
 <html>
-</head>
+<title>
+table
+</title>
+<body>
 <style>
-table,tr,th,td{
-border:2px solid orange;
-bordercollapse: collapse;
-height:50px;
+table,th,tr,td{
+border:2px solid yellow;
+height:70px;
 width:400px;
-text-align: center;
+text-align:center;
 }
 </style>
-<body>
 <table>
 <tr>
-<th rowspan="2">S.no</th>
-<th colspan="2">Name</th>
-<th rowspan="2">register no</th>
+<th>Header</th>
+<th>Header</th>
+<th>Header</th>
+<th>Header</th>
 </tr>
 <tr>
-<td>first name</td>
-<td>second name</td>
+<td rowspan="5">span rows</td>
+<td colspan="3">span column</td>
 </tr>
 <tr>
-<td>1</td>
-<td>Lance</td>
-<td>Peostin</td>
-<td>23bai031</td>
+<td colspan="2">span column</td>
+<td rowspan="4">span both</td>
 </tr>
 <tr>
-<td>2.</td>
-<td>Rabi</td>
-<td>Sree</td>
-<td>23bai050</td>
+<td rowspan="3">span rows</td>
+<td>span columns</td>
 </tr>
-</table>
-</body>
-</html>
+<tr>
